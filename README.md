@@ -1,8 +1,8 @@
 # zju-health-report-action-demo
 
 <p align="center" style="display: flex; justify-content: space-between; align-items: center;">
-<img src="https://github.githubassets.com/images/modules/site/features/actions-icon-actions.svg" alt="github-actions-png" height="200" style="padding: 20px 20px 20px; display: inline-block; box-sizing: border-box;"></img>
-<img src="https://user-images.githubusercontent.com/102473739/160546748-52ccc565-fc6c-4833-b710-494aacbad18e.png" alt="github-actions-png" height="200"></img>
+<img src="https://github.githubassets.com/images/modules/site/features/actions-icon-actions.svg" alt="github-actions-logo" height="200" style="padding: 20px 20px 20px; display: inline-block; box-sizing: border-box;"></img>
+<img src="https://user-images.githubusercontent.com/102473739/160546748-52ccc565-fc6c-4833-b710-494aacbad18e.png" alt="zju-health-report-logo" height="200"></img>
 </p>
 
 > GitHub Action Demo for https://github.com/zju-health-report/action
