@@ -1,4 +1,5 @@
-name: 'Monthly Action'
+# 防止 GitHub 长时间不 commit 导致 Action 自动停用
+name: 'Monthly Update Action'
 
 on:
   workflow_dispatch:

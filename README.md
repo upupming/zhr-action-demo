@@ -15,7 +15,7 @@
 
 2. 配置定时运行时间（可选）
 
-   在 .github/workflows/action.yml 中更改时间：
+   在 .github/workflows/health-report.yml 中更改时间：
 
    ```yml
    on:
@@ -32,7 +32,7 @@
 
 4. 配置多人打卡（可选）
 
-   在 .github/workflows/action.yml 中添加一组，自行添加对应的Secrets。
+   在 .github/workflows/health-report.yml 中添加一组，自行添加对应的Secrets。
 
    ```yml
       - username: ZJU_USERNAME
@@ -45,10 +45,10 @@
 
    Actions > @zju-health-report/action Demo > Enable workflow > Run workflow。
 
-   Actions > Monthly Action > Enable workflow > Run workflow。
+   Actions > Monthly Update Action > Enable workflow > Run workflow。
 
 6. 停用
 
    Actions > @zju-health-report/action Demo > Disable workflow。
 
-   Actions > Monthly Action > Disable workflow。
+   Actions > Monthly Update Action > Disable workflow。
