@@ -1,4 +1,4 @@
-# zju-health-report-action-demo
+# zju-health-report-action-demo (ZHR demo)
 
 <p align="center" style="display: flex; justify-content: space-between; align-items: center;">
 <img src="https://github.githubassets.com/images/modules/site/features/actions-icon-actions.svg" alt="github-actions-logo" height="200" style="padding: 20px 20px 20px; display: inline-block; box-sizing: border-box;"></img>
@@ -26,9 +26,9 @@
 
 3. 配置帐号（必须）
 
-   Settings > Secrets > New repository secrets， 添加 `ZJU_USERNAME`，内容为浙大通行证账号（学号），添加`ZJU_PASSWORD`，内容为浙大通行证密码。
+   Settings > Secrets > Actions > New repository secret， 添加 `ZJU_USERNAME`，内容为浙大通行证账号（学号），添加`ZJU_PASSWORD`，内容为浙大通行证密码。
 
-   ![zju_account](https://user-images.githubusercontent.com/102473739/160592128-4ae2f655-3e6e-4373-b655-9433ac4fb0c9.png)
+   ![zju_account](https://user-images.githubusercontent.com/24741764/161693671-3659a9d5-aafa-4140-a277-1aa3e6373e48.png)
 
 4. 配置多人打卡（可选）
 
