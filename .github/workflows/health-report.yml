@@ -15,9 +15,11 @@ jobs:
         include:
           - username: ZJU_USERNAME
             password: ZJU_PASSWORD
+            dingtalk_token: DINGTALK_TOKEN
     steps:
       - name: 打卡
         uses: zju-health-report/action@release
         with:
           username: ${{ secrets[matrix.username] }}
           password: ${{ secrets[matrix.password] }}
+          dingtalk_token: ${{ secrets[matrix.dingtalk_token] }}
