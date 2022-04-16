@@ -10,25 +10,22 @@ jobs:
   main:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Update
-        run: |
-          echo "one month" >> monthly.log
-      - name: Commit files
-        run: |
-          git remote add upstream https://github.com/zju-health-report/zju-health-report-action-demo.git
-          git fetch upstream
-          git reset --hard upstream/main
-          git config --local user.name github-actions[bot]
-          git config --local user.email github-actions[bot]@users.noreply.github.com
-          git status
-          git add monthly.log
-          git commit -m "Monthly update"
-          git log
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
-          force: true
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Update
+      run: |
+        echo "one month" >> monthly.log
+    - name: Commit files
+      run: |
+        git config --local user.name github-actions[bot]
+        git config --local user.email github-actions[bot]@users.noreply.github.com
+        git status
+        git add monthly.log
+        git commit -m "Monthly update"
+        git log
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
+        force: true

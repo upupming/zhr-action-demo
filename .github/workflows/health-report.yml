@@ -23,3 +23,5 @@ jobs:
           username: ${{ secrets[matrix.username] }}
           password: ${{ secrets[matrix.password] }}
           dingtalk_token: ${{ secrets[matrix.dingtalk_token] }}
+        env:
+          ACTION_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
