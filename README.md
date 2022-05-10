@@ -1,4 +1,4 @@
-# zju-health-report-action-demo (ZHR demo)
+# zhr-action-demo
 
 <p align="center" style="display: flex; justify-content: space-between; align-items: center;">
 <img src="https://github.githubassets.com/images/modules/site/features/actions-icon-actions.svg" alt="github-actions-logo" height="200" style="padding: 20px 20px 20px; display: inline-block; box-sizing: border-box;"></img>
@@ -54,7 +54,7 @@
 6. 测试
 
    Actions > I understand my workflows, go ahead and enable them
-   
+
    Actions > @zju-health-report/action Demo > Enable workflow > Run workflow。
 
    Actions > Monthly Update Action > Enable workflow > Run workflow。
