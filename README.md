@@ -1,13 +1,14 @@
 # zhr-action-demo
 
-<p align="center" style="display: flex; justify-content: space-between; align-items: center;">
-<img src="https://github.githubassets.com/images/modules/site/features/actions-icon-actions.svg" alt="github-actions-logo" height="200" style="padding: 20px 20px 20px; display: inline-block; box-sizing: border-box;"></img>
-<img src="https://user-images.githubusercontent.com/102473739/160546748-52ccc565-fc6c-4833-b710-494aacbad18e.png" alt="zju-health-report-logo" height="200"></img>
-</p>
+<center>
+
+![ZHR✅](https://user-images.githubusercontent.com/102473739/168511011-7f266047-a437-4ed7-a151-4e8129bf7a1b.png)
+
+</center>
 
 > GitHub Action Demo for https://github.com/zju-health-report/action
 
-浙江大学健康打卡自动打卡脚本  GitHub Action 例子，只需一步 Fork 即可使用。
+浙江大学健康打卡自动打卡脚本 GitHub Action 例子，只需一步 Fork 即可使用，每天定时帮你自动打卡。
 
 ## 使用方法
 
@@ -29,6 +30,8 @@
    on:
    workflow_dispatch:
    schedule:
+      # `0 23 * * *` 表示UTC 23:00，即北京时间7:00打卡（经测试，实际运行时间比设定时间晚几分钟到几十分钟）。
+      # 可以参考 https://crontab.guru/ 进行配置
       - cron: '0 23 * * *'
    ```
 
@@ -51,7 +54,7 @@
         dingtalk_token: DINGTALK_TOKEN2
    ```
 
-6. 测试
+6. 启用 Action（必须）
 
    Actions > I understand my workflows, go ahead and enable them
 
@@ -59,7 +62,7 @@
 
    Actions > Monthly Update Action > Enable workflow > Run workflow。
 
-7. 停用
+7. 停用 Action
 
    Actions > @zju-health-report/action Demo > Disable workflow。
 

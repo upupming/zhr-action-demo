@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     # `0 23 * * *` 表示UTC 23:00，即北京时间7:00打卡（经测试，实际运行时间比设定时间晚几分钟到几十分钟）。
+    # 可以参考 https://crontab.guru/ 进行配置
     - cron: '0 23 * * *'
 
 jobs:
