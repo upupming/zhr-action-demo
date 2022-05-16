@@ -1,10 +1,8 @@
 # zhr-action-demo
 
-<center>
-
-![ZHR✅](https://user-images.githubusercontent.com/102473739/168511011-7f266047-a437-4ed7-a151-4e8129bf7a1b.png)
-
-</center>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/102473739/168511011-7f266047-a437-4ed7-a151-4e8129bf7a1b.png">
+</p>
 
 > GitHub Action Demo for https://github.com/zju-health-report/action
 
