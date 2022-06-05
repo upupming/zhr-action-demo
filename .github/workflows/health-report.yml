@@ -16,6 +16,8 @@ jobs:
         include:
           - username: ZJU_USERNAME
             password: ZJU_PASSWORD
+            # 如果出现登录异常，可以配置 ZJU_COOKIE secret，请参考 https://github.com/zju-health-report/action#%E7%99%BB%E5%BD%95%E5%BC%82%E5%B8%B8 获取 ZJU_COOKIE 的值
+            cookie_eai_sess: ZJU_COOKIE
             dingtalk_token: DINGTALK_TOKEN
     steps:
       - name: 打卡
@@ -23,6 +25,7 @@ jobs:
         with:
           username: ${{ secrets[matrix.username] }}
           password: ${{ secrets[matrix.password] }}
+          cookie_eai_sess: ${{ secrets[matrix.cookie_eai_sess] }}
           dingtalk_token: ${{ secrets[matrix.dingtalk_token] }}
         env:
           ACTION_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}

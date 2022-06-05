@@ -20,6 +20,8 @@
 
    ![zju_account](https://user-images.githubusercontent.com/24741764/161693671-3659a9d5-aafa-4140-a277-1aa3e6373e48.png)
 
+   如果遇到[登录异常问题](https://github.com/zju-health-report/zhr-action-demo/issues/10)，可添加 `ZJU_COOKIE` 这个 secret，请参考 https://github.com/zju-health-report/action#%E7%99%BB%E5%BD%95%E5%BC%82%E5%B8%B8 进行配置，`ZJU_PASSWORD` 和 `ZJU_COOKIE` 二选一即可。
+
 3. 配置定时运行时间（可选）
 
    在 .github/workflows/health-report.yml 中更改时间：
