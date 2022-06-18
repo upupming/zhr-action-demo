@@ -4,7 +4,7 @@
   <img src="https://user-images.githubusercontent.com/102473739/168511011-7f266047-a437-4ed7-a151-4e8129bf7a1b.png">
 </p>
 
-> GitHub Action Demo for https://github.com/zju-health-report/action
+> GitHub Action Demo for https://github.com/upupming/zhr-action
 
 浙江大学健康打卡自动打卡脚本 GitHub Action 例子，只需一步 Fork 即可使用，每天定时帮你自动打卡。
 
@@ -20,7 +20,7 @@
 
    ![zju_account](https://user-images.githubusercontent.com/24741764/161693671-3659a9d5-aafa-4140-a277-1aa3e6373e48.png)
 
-   如果遇到[登录异常问题](https://github.com/zju-health-report/zhr-action-demo/issues/10)，可添加 `ZJU_COOKIE` 这个 secret，请参考 https://github.com/zju-health-report/action#%E7%99%BB%E5%BD%95%E5%BC%82%E5%B8%B8 进行配置，`ZJU_PASSWORD` 和 `ZJU_COOKIE` 二选一即可。
+   如果遇到[登录异常问题](https://github.com/upupming/zhr-action-demo/issues/10)，可添加 `ZJU_COOKIE` 这个 secret，请参考 https://github.com/upupming/zhr-action#%E7%99%BB%E5%BD%95%E5%BC%82%E5%B8%B8 进行配置，`ZJU_PASSWORD` 和 `ZJU_COOKIE` 二选一即可。
 
 3. 配置定时运行时间（可选）
 
@@ -58,12 +58,12 @@
 
    Actions > I understand my workflows, go ahead and enable them
 
-   Actions > @zju-health-report/action Demo > Enable workflow > Run workflow。
+   Actions > @upupming/zhr-action Demo > Enable workflow > Run workflow。
 
    Actions > Monthly Update Action > Enable workflow > Run workflow。
 
 7. 停用 Action
 
-   Actions > @zju-health-report/action Demo > Disable workflow。
+   Actions > @upupming/zhr-action Demo > Disable workflow。
 
    Actions > Monthly Update Action > Disable workflow。
