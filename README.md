@@ -58,12 +58,12 @@
 
    Actions > I understand my workflows, go ahead and enable them
 
-   Actions > @upupming/zhr-action Demo > Enable workflow > Run workflow。
+   Actions > zhr-action Demo > Enable workflow > Run workflow。
 
    Actions > Monthly Update Action > Enable workflow > Run workflow。
 
 7. 停用 Action
 
-   Actions > @upupming/zhr-action Demo > Disable workflow。
+   Actions > zhr-action Demo > Disable workflow。
 
    Actions > Monthly Update Action > Disable workflow。
